@@ -1,0 +1,55 @@
+/* General */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+:root {
+  --bristol-color: #a6192e;
+  --color-alt: #a65b66;
+}
+
+/* Home */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--bristol-color) !important;
+}
+
+h2:before {
+  display: none;
+}
+
+a {
+  color: var(--bristol-color);
+}
+
+a:hover {
+  color: var(--color-alt) !important;
+  cursor: pointer !important;
+}
+
+.entry-title:before {
+  display: none !important;
+}
+
+.main-navigation ul.main-menu > li > a {
+  color: var(--bristol-color);
+}
+
+.main-navigation .main-menu > li > a:hover {
+  color: #b3b3b3;
+}
+
+.svg-icon {
+  color: var(--bristol-color) !important;
+}
+
+.is-content-justification-center > .wp-block-button {
+  position: relative;
+  bottom: 30px;
+}
+
+.wp-block-button__link {
+  background-color: var(--bristol-color) !important;
+}
